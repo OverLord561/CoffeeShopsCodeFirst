@@ -105,6 +105,6 @@ D:\1\WebAutomation\CoffeeShopsCodeFirst\CoffeeShopsCodeFirst\bin\ru\Microsoft.Ow
 D:\1\WebAutomation\CoffeeShopsCodeFirst\CoffeeShopsCodeFirst\bin\ru\Microsoft.Owin.Security.Google.resources.dll
 D:\1\WebAutomation\CoffeeShopsCodeFirst\CoffeeShopsCodeFirst\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
 D:\1\WebAutomation\CoffeeShopsCodeFirst\CoffeeShopsCodeFirst\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
-D:\1\WebAutomation\CoffeeShopsCodeFirst\CoffeeShopsCodeFirst\obj\Debug\CoffeeShopsCodeFirst.csprojResolveAssemblyReference.cache
 D:\1\WebAutomation\CoffeeShopsCodeFirst\CoffeeShopsCodeFirst\obj\Debug\CoffeeShopsCodeFirst.dll
 D:\1\WebAutomation\CoffeeShopsCodeFirst\CoffeeShopsCodeFirst\obj\Debug\CoffeeShopsCodeFirst.pdb
+D:\1\WebAutomation\CoffeeShopsCodeFirst\CoffeeShopsCodeFirst\obj\Debug\CoffeeShopsCodeFirst.csprojResolveAssemblyReference.cache

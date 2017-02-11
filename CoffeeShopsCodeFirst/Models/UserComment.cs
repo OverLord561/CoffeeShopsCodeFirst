@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 
-namespace MvcApplicationInternet.Models
+namespace CoffeeShopsCodeFirst.Models
 {
     public class UserComment
     {

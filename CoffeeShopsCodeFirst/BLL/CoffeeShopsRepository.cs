@@ -1,6 +1,6 @@
 ﻿using CoffeeShopsCodeFirst.Models;
 using Microsoft.AspNet.Identity;
-using MvcApplicationInternet.Models;
+
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -203,6 +203,11 @@ namespace CoffeeShopsCodeFirst.BLL
         public IQueryable<CoffeeShop> GetCoffeeShops()
         {
             var res = db.CoffeeShops;
+            return res;
+        }
+        public IQueryable<CoffeeShop> GetCoffeeShopsByName(string name)
+        {
+            var res = name != ""? db.CoffeeShops.Where(x => x.CoffeeShopName.ToLower().Contains(name.ToLower())): db.CoffeeShops;
             return res;
         }
         public CoffeeShop GetCoffeeShopById(int coffeeID)

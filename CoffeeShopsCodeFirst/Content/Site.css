@@ -1,12 +1,13 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-image: url(/Content/Coffee.jpg);
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -21,4 +22,90 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+.myheader {
+   margin-top:25px;
+}
+.myheader label {
+    border-radius: 10px;
+    color: darkred;
+    font-size: 45px;
+    background-color: sandybrown;
+    opacity: 0.6;
+    padding: 42px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 965px;
+}
+
+.myheader img {
+    margin-top: -25px;
+}
+
+.cofeesection {
+    border-radius: 10px;
+    background-color: black;
+    height: 350px;
+    width: 47%;
+    margin: 17.5px;
+}
+
+.csheader {
+    color: white;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    font-size: 50px;
+    background-color: rgba(244,164,95,0.5);
+    font-family: 'Sansita', sans-serif;
+}
+
+.csfooter {
+    visibility:hidden;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+    margin-top: 188px;
+    color: beige;
+    font-size: x-large;
+    background-color: rgba(244,164,95,0.5);
+}
+
+    .csfooter label {
+        padding-top: 5px;
+        display: block;
+        opacity: 1;
+        color: white;
+    }
+
+.mainheader {
+        padding-top: 8px;
+    font-size:large;
+    height:70px;
+background-color:#241408;
+}
+
+.search{
+    margin:20px 20px 10px 20px;
+    text-align: right;
+}
+/*REVIEW*/
+.reviewheader {
+    opacity:0.95;
+    margin-top:30px;
+    border-radius:5px;
+background-color:sandybrown;
+padding:25px;
+}
+#map_canvas {
+        margin-bottom: 25px;
+    margin-top: 35px;
+    margin-left: -25px;
+    width: 550px;
+    height: 400px;
+   
+    position: relative;
+    overflow: hidden;
+
+
 }
